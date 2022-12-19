@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Balsamiq Sans, sans-serif;
+}
+/* NAV STYLING */
+.nav-bar {
+    background-color: lightgray;
+    margin: 0 auto;
+    padding: 10px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-search {
+    width: 40%;
+    height: 30px;
+    padding-left: 15px;
+}
+
+.nav-btn {
+    width: 10%;
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    color: white;
+    background-color: rgb(27, 96, 214);
+}
+
+/* MAIN PAGE STYLING */
+.main-page {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 20px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Main Content Styling */
+.main-content {
+    flex: 2;
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 20px 0px;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.word-data {
+    flex: 1;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+.word-data h1 {
+    font-weight: lighter;
+}
+
+.word-data h3 {
+    font-style: italic;
+}
+
+.word-def {
+    flex: 3;
+    font-size: 1.2em;
+}
+
+.like-btn {
+    width: 60%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #eed28b;
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    flex: 1;
+}
+
+.side-content {
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.side-content h1 {
+    font-weight: lighter;
+}
+
+.side-btn {
+    background-color: rgb(149, 210, 149);
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 1.2em;
+}
